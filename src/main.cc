@@ -33,7 +33,7 @@ int main()
 
     int* ptr1{&something};
 
-    //*ptr1++;
+    ++*ptr1;
 
     Person* person1{new Person("Jose", 19, 1.60)};
 
